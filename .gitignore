@@ -1,0 +1,61 @@
+# ─── Dependencies ───────────────────────────────────────────────────────────────
+node_modules/
+vendor/
+.pnp
+.pnp.js
+
+# ─── Build output ───────────────────────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+public/build/
+
+# ─── Environment & secrets ──────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+*.pem
+
+# ─── Logs ───────────────────────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── Cache & temp files ─────────────────────────────────────────────────────────
+.cache/
+.parcel-cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# ─── Testing ────────────────────────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── IDE / editor ───────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ─── OS ─────────────────────────────────────────────────────────────────────────
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
